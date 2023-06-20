@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fintech - Cadastro de Nova Senha</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="container text-center login-form">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+      <div class="row justify-content-md-center">
+        <div class="col mb-3 d-flex justify-content-center">
+          <div class="user-photo">
+            <span class="bi bi-person-fill user-icon"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-center login-plus">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+      <div class="row">
+        <div class="col">
+          <form action="login.html" method="post">
+            <div class="mb-3">
+              <label for="senha" class="form-label label-unformatted d-flex text-start unstyled-links">Senha</label>
+              <input type="password" id="senha" name="senha" class="form-control input-with-shadow" minlength="6"
+                     maxlength="20">
+            </div>
+            <div class="mb-3">
+              <label for="confirma-senha" class="form-label label-unformatted d-flex text-start unstyled-links">Confirmação de Senha</label>
+              <input type="password" id="confirma-senha" name="confirma-senha" class="form-control input-with-shadow" minlength="6"
+                     maxlength="20">
+            </div>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary input-with-shadow">SALVAR SENHA</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

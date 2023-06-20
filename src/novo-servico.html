@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fintech - Cadastrar - Novo Serviço</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="container text-center">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="text-center"></span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Serviços Contratados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+              </ul>
+            </div>
+            <div class="text-end authenticated-user-photo-circle"><span class="bi bi-person-fill authenticated-user-photo"></span>&nbsp;</div>
+          </div>
+        </nav>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+          <form action="servico.html" class="form-new-service" method="post">
+            <div class="mb-3">
+              <label for="nome-item" class="form-label label-unformatted d-flex text-start unstyled-links">Nome do Item</label>
+              <input type="text" id="nome-item" name="nome-item" class="form-control input-with-shadow" minlength="3"
+                     maxlength="150">
+            </div>
+            <div class="mb-3">
+              <label for="valor-item" class="form-label label-unformatted d-flex text-start unstyled-links">Valor do Item</label>
+              <input type="text" id="valor-item" name="valor-item" class="form-control input-with-shadow" minlength="3"
+                     maxlength="20">
+            </div>
+            <div class="mb-3">
+              <label for="data-vencimento" class="form-label label-unformatted d-flex text-start unstyled-links">Data Vencimento</label>
+              <input type="date" id="data-vencimento" name="data-vencimento" class="form-control input-with-shadow">
+            </div>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary input-with-shadow">CADASTRAR</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

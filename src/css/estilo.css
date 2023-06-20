@@ -1,0 +1,83 @@
+body {
+    background-color: silver;
+}
+
+.login-form {
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.login-plus {
+    margin-top: 2.5%;
+}
+
+.login-plus .controls {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login-form .user-photo {
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 60px 60px 60px 60px;
+}
+
+.user-icon {
+    font-size: 80px;
+    color: silver;
+}
+
+.login-text-auth {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 3px 3px gray;
+}
+
+.unstyled-links {
+    text-decoration: none;
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 3px 3px gray;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.input-with-shadow {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.label-unformatted {
+    text-align: left;
+    color: white;
+}
+
+.authenticated-user-photo-circle {
+    width: 29px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.authenticated-user-photo {
+    font-size: 20px;
+    color: silver;
+}
+
+.add-service {
+    margin-bottom: 5%;
+    margin-right: 3%;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+table tbody {
+    background-color: #ffffff;
+}
+
+.service-info {
+    border-radius: 15px;
+    font-size: 11px;
+}
+
+.form-new-service {
+    margin-top: 50%;
+}

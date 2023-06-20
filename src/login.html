@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fintech - Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="container text-center login-form">
+    <div class="row justify-content-md-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="row justify-content-md-center">
+                <div class="col mb-3 d-flex justify-content-center">
+                    <div class="user-photo">
+                        <span class="bi bi-person-fill user-icon"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col">
+                    <div class="login-text-auth">
+                        Login
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col">
+                    <form action="servico.html" method="post">
+                        <div class="mb-3">
+                            <input type="email" id="email" name="email" class="form-control input-with-shadow" placeholder="john.doe@exemplo.com.br" minlength="5"
+                                   maxlength="100">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" id="password" name="password" class="form-control input-with-shadow" placeholder="*****" minlength="6"
+                                   maxlength="20">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary input-with-shadow"><span class="bi bi-unlock"></span>&nbsp;LOGIN
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center login-plus">
+    <div class="row justify-content-md-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="row justify-content-md-center">
+                <div class="col">
+                    <div class="controls">
+                        <a href="esqueci-senha-token.html" class="unstyled-links">Esqueci a Senha</a>
+                    </div>
+                    <div class="controls">
+                        <a href="cadastrar.html" class="unstyled-links">Cadastrar</a>
+                    </div>
+                    <div class="d-grid gap-2 controls">
+                        <a href="#" class="btn btn-light input-with-shadow"><span class="bi bi-google"></span>&nbsp;Login com Google</a>
+                    </div>
+                    <div class="d-grid gap-2 controls">
+                        <a href="#" class="btn btn-light input-with-shadow"><span class="bi bi-facebook"></span>&nbsp;Login com
+                            Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
