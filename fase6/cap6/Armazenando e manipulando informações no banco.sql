@@ -74,5 +74,4 @@ SELECT
 FROM T_USUARIO u
 LEFT JOIN T_LANCAMENTO d ON d.cd_usuario = u.cd_usuario and d.cd_tipo = [CD TIPO DESPESA]
 LEFT JOIN T_LANCAMENTO i ON d.cd_usuario = u.cd_usuario and d.cd_tipo = [CD TIPO INVESTIMENTO]
-LEFT JOIN T_TIPO_INVESTIMENTO ti ON i.cd_tipo_investimento = ti.cd_tipo_investimento
 WHERE cd_usuario = [CD USUARIO];
