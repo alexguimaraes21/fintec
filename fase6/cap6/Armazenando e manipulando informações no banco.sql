@@ -74,18 +74,18 @@ SELECT
 FROM T_USUARIO u
 LEFT JOIN T_LANCAMENTO i 
     ON i.cd_usuario = u.cd_usuario 
-    AND i.cd_tipo = :CD_TIPO_INVESTIMENTO 
+    AND i.cd_tipo = [CD TIPO INVESTIMENTO]
     AND i.dt_lancamento = (
         SELECT MAX(dt_lancamento)
         FROM T_LANCAMENTO 
-        WHERE cd_usuario = u.cd_usuario AND cd_tipo = :CD_TIPO_INVESTIMENTO
+        WHERE cd_usuario = u.cd_usuario AND cd_tipo = [CD TIPO INVESTIMENTO]
     )
 LEFT JOIN T_LANCAMENTO d 
     ON d.cd_usuario = u.cd_usuario 
-    AND d.cd_tipo = :CD_TIPO_DESPESA 
+    AND d.cd_tipo = [CD TIPO DESPESA]
     AND d.dt_lancamento = (
         SELECT MAX(dt_lancamento)
         FROM T_LANCAMENTO 
-        WHERE cd_usuario = u.cd_usuario AND cd_tipo = :CD_TIPO_DESPESA
+        WHERE cd_usuario = u.cd_usuario AND cd_tipo = [CD TIPO DESPESA]
     )
 WHERE cd_usuario = [CD USUARIO];
