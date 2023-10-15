@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4108CBCF-C020-6DA0-473B-F749C6DFAAB2" name="T_CONTA">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>6C396741-5658-7849-6610-E09255F21F97</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_conta" id="F53BF461-D89A-BEE9-08FC-34573D5202C0">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>F41C1B59-F478-F987-ADE8-976C4356D2AD</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_agencia" id="DD9595DE-A638-9FAA-D5B2-7F37308600E3">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>317DA02C-42E3-E93A-30DF-C3DBC1E33E41</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_conta" id="3FE0048F-57CE-B007-EEEC-0B6F9BD9E605">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>63434DB5-8424-B0D2-A4FE-A9698BABD2B6</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_banco" id="09A4BA8E-EBF0-3753-8295-6F4B3477EFF9">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>B968669E-B6BE-E453-88EE-523577EFAD24</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usuario" id="A0A96707-48B6-20CE-60FC-60E3F4B3AFDB">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>722F2BD7-329E-2F06-0FF7-830EB4DF0E21</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="940FD236-50B5-A96B-76B0-15387871FDB5" referredColumn="87D60FB4-D0BC-004D-1CB5-E2B62FE6EDD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08709563-48C3-EADD-35A8-E530EBACDA8C" name="T_CONTA_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>D1F6BD1C-5CEF-1DFB-5D9F-281198E66A06</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53BF461-D89A-BEE9-08FC-34573D5202C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C639F8C-CEDB-0120-853A-8306363A02A4" name="T_CONTA_T_USUARIO_FK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>DEE93EEA-B229-C2C4-DE96-C1F6C22BB5EF</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A96707-48B6-20CE-60FC-60E3F4B3AFDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_T_CONTA_T_LANCAMENTO" directorySegmentName="seg_0" id="81A807A0-0C5E-B87E-6E0A-369B8384C79F">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:29:14 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<sourcePk>D1F6BD1C-5CEF-1DFB-5D9F-281198E66A06</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C396741-5658-7849-6610-E09255F21F97</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5060A6DC-8C16-BC69-8FBF-BF61FABAFFA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

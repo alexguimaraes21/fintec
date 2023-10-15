@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="492125AC-10BD-C104-9D0F-54BE1A4407A8" name="T_TIPO_INVESTIMENTO">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>05E02744-3E5E-0903-0AF8-79D65AD6B900</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_investimento" id="3E5FD44C-73F3-DDA1-65CF-D53FF7C46A6D">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>2CE7F5E8-D3B3-D3EC-00B0-23B2BCF7A15A</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_investimento" id="B1A265E1-71A2-A4C4-0C01-AFB8C120DE9B">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>4C1BA0A1-4AFC-D0E1-55CF-EE691EEDE4B2</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_rendimento_mensal" id="1FED752C-6A75-44BC-919F-1EAC5A6D3DF3">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>DFD74EF4-2509-7DBA-BC8A-9D206627EB11</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prazo_minimo_investimento" id="7370D3F9-1A7B-1630-21B2-FD69300D833A">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>7316B3E0-385E-DBF1-AC0C-FFFBFD76655D</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15D517D3-8EE2-F14A-4C7B-95CB2B7DEEF1" name="T_TIPO_INVESTIMENTO_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>7C60BC50-03E1-DE4B-DFD3-3AB21291E16C</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E5FD44C-73F3-DDA1-65CF-D53FF7C46A6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

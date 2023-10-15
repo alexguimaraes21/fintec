@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DEB4518-B8B8-0D28-D0B8-D803464E2842" name="T_USUARIO">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>E9880DD7-8601-D0F1-C8FC-7A76866C1C7F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="87D60FB4-D0BC-004D-1CB5-E2B62FE6EDD5">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>7B33B41E-AFF8-306B-2568-F548508CE3A8</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_cpf_usuario" id="16B7367C-6891-F257-98E1-D7B61CE5D97E">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>D2FCA59A-C8AA-38C7-8984-4725DF2CC9CB</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="1605DEF1-ABA7-89DC-A502-216E93D0551C">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>4EF2548F-5F96-E435-A1BF-E42617FF5E28</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="AFBDBC0B-37BC-5B83-69B6-2ECCFE3AB463">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>4607CF98-1AA8-3B47-D418-2FC9EA081999</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ck_usuario_ativo" id="9A72A9A4-B23D-6B57-55BD-9B9161CDB20A">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>52FB73AF-D817-BB83-B973-13144A5CDD70</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBE884B8-8671-AD8D-62B7-506AECC544FA" name="T_USUARIO_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>D64A5DC5-D066-3EF9-AE16-CAD2EB6BF4D7</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D60FB4-D0BC-004D-1CB5-E2B62FE6EDD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E413ECAE-24CA-3B07-9D23-4754FF1C238A" name="T_LANCAMENTO">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>5060A6DC-8C16-BC69-8FBF-BF61FABAFFA2</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lancamento" id="2060F96F-EE58-F37F-3D37-77BDD3460007">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>66BADB1F-E86B-3853-401F-1107558BC256</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_lancamento" id="3EFB763D-5817-6C57-FE2E-9F61FFA3B649">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>056EE3C4-16D1-8831-6B65-519F5EAB8FE4</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_lancamento" id="3F74310A-2DD8-6EDF-30AD-E94CF50922CA">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>8820C4DA-2AAD-B991-5422-9CD0C7F4F49D</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_lancamento" id="CB3D3978-C54C-6485-7B5E-6C53398DCC5B">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>60335BC9-B2A6-8145-938B-80A05565B77C</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TIPO_LANCAMENTO_cd_tipo" id="CB61578B-2470-865A-447C-268FAA1AB343">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>2F94D025-C163-10EA-AE9F-205EB6B6E703</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="640FCD6A-4F54-FD3C-E652-FF9EDB0C4F62" referredColumn="C831A2F3-0E66-F649-9CA7-E04AB92AC723"/>
+</associations>
+</Column>
+<Column name="T_USUARIO_cd_usuario" id="5A6FA3D7-E884-8917-8E13-E8E206BECAA6">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>ACC64370-1458-0DAE-2CC5-58ABC1A33077</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="709A42ED-8643-7E19-A4C1-A228E2F64F1B" referredColumn="87D60FB4-D0BC-004D-1CB5-E2B62FE6EDD5"/>
+</associations>
+</Column>
+<Column name="T_CONTA_cd_conta" id="15836350-9C3A-48FC-158C-3B7684706308">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>E70A278A-C034-9556-15CA-2A80FC9D7EEB</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B463708-C3F2-DB9C-7EBC-E7C3EAF55A46" referredColumn="F53BF461-D89A-BEE9-08FC-34573D5202C0"/>
+</associations>
+</Column>
+<Column name="T_TIPO_INVESTIMENTO_cd_tipo_investimento" id="567512DE-8C6A-CEDF-3EAB-C88FA50181E2">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>BA19F921-7001-73D9-5250-78DD67A958D5</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FE8D17B-7A88-F9AB-71AB-4D18E0B9E8CF" referredColumn="3E5FD44C-73F3-DDA1-65CF-D53FF7C46A6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD44AEDF-0133-0636-5F98-9C732BBEDB69" name="T_LANCAMENTO_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>5A46DDFA-7632-E79F-BDF9-A1D810D76872</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2060F96F-EE58-F37F-3D37-77BDD3460007"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC214F1A-179E-9C2B-499C-7B776A664D7F" name="T_LANCAMENTO_T_CONTA_FK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>81A807A0-0C5E-B87E-6E0A-369B8384C79F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15836350-9C3A-48FC-158C-3B7684706308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9F3DE87-482B-A320-AB4A-9C85174C5304" name="T_LANCAMENTO_T_TIPO_INVESTIMENTO_FK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>3396F121-8BCA-0D9D-A76D-B52FE259E2E0</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="567512DE-8C6A-CEDF-3EAB-C88FA50181E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D53A639B-6295-E6EA-BCCA-E9B6761CA16E" name="T_LANCAMENTO_T_TIPO_LANCAMENTO_FK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>5330404B-5D7E-0B92-4CA9-F10DBFF2F798</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB61578B-2470-865A-447C-268FAA1AB343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41E4C66B-353A-B1CB-8555-F7181AB5460E" name="T_LANCAMENTO_T_USUARIO_FK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:59:18 UTC</createdTime>
+<generatorID>4D105A17-84F3-2629-EBFB-D97E93083332</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A6FA3D7-E884-8917-8E13-E8E206BECAA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

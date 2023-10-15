@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5060A6DC-8C16-BC69-8FBF-BF61FABAFFA2" name="T_LANCAMENTO">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:17:19 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lancamento" id="66BADB1F-E86B-3853-401F-1107558BC256">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:17:25 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_lancamento" id="056EE3C4-16D1-8831-6B65-519F5EAB8FE4">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:17:39 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_lancamento" id="8820C4DA-2AAD-B991-5422-9CD0C7F4F49D">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:19:08 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_lancamento" id="60335BC9-B2A6-8145-938B-80A05565B77C">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:21:57 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo" id="2F94D025-C163-10EA-AE9F-205EB6B6E703">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:21:09 UTC</createdTime>
+<generatorID>5330404B-5D7E-0B92-4CA9-F10DBFF2F798</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<referedAttribute>847612CB-6ADD-2846-100F-61EBDC90126D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="ACC64370-1458-0DAE-2CC5-58ABC1A33077">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:27:00 UTC</createdTime>
+<generatorID>4D105A17-84F3-2629-EBFB-D97E93083332</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<referedAttribute>7B33B41E-AFF8-306B-2568-F548508CE3A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_conta" id="E70A278A-C034-9556-15CA-2A80FC9D7EEB">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:29:14 UTC</createdTime>
+<generatorID>81A807A0-0C5E-B87E-6E0A-369B8384C79F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<referedAttribute>F41C1B59-F478-F987-ADE8-976C4356D2AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_investimento" id="BA19F921-7001-73D9-5250-78DD67A958D5">
+<createdBy>Alex</createdBy>
+<createdTime>2023-10-15 15:57:11 UTC</createdTime>
+<generatorID>3396F121-8BCA-0D9D-A76D-B52FE259E2E0</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2CE7F5E8-D3B3-D3EC-00B0-23B2BCF7A15A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A46DDFA-7632-E79F-BDF9-A1D810D76872" name="T_LANCAMENTO PK">
+<createdBy>Alex</createdBy>
+<createdTime>2023-05-24 00:17:38 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="46947210-48A7-DF09-21EB-33444E0B4E5D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66BADB1F-E86B-3853-401F-1107558BC256</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
